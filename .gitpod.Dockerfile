@@ -3,10 +3,10 @@ FROM gitpod/workspace-full
 USER root
 
 RUN apt-get -q update && \
-    apt-get install -y python3-dev libxml2-utils librsvg2-bin && \
+    apt-get install -y python3-dev libxml2-utils && \
     apt-get clean && rm -rf /var/cache/apt/* && rm -rf /var/lib/apt/lists/* && rm -rf /tmp/*
 # Missing: libimage-exiftool-perl, default-jre, calibre
-# Skipped for now: inkscape
+# Skipped for now: inkscape, librsvg2-bin (brings in GUI)
 
 USER gitpod
 
