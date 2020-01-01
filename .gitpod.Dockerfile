@@ -4,12 +4,13 @@ USER root
 
 RUN apt-get -q update && \
     apt-get install -y python3-dev libxml2-utils librsvg2-bin && \
-    python3 -m pip install ensurepath standardebooks && \
     apt-get clean && rm -rf /var/cache/apt/* && rm -rf /var/lib/apt/lists/* && rm -rf /tmp/*
 # Missing: libimage-exiftool-perl, default-jre, calibre
 # Skipped for now: inkscape
 
 USER gitpod
+
+RUN python3 -m pip install ensurepath standardebooks
 
 # Install required fonts.
 #mkdir -p $HOME/.local/share/fonts/
