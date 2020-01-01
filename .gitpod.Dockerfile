@@ -1,5 +1,7 @@
 FROM gitpod/workspace-full
-                    
+
+USER root
+
 RUN apt-get -q update && \
     apt-get install -y python3-dev libxml2-utils librsvg2-bin && \
     pip install ensurepath standardebooks && \
