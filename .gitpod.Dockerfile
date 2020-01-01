@@ -10,7 +10,7 @@ RUN apt-get -q update && \
 
 USER gitpod
 
-RUN python3 -m pip install ensurepath standardebooks
+RUN python3 -m pip install standardebooks
 
 # Install required fonts.
 #mkdir -p $HOME/.local/share/fonts/
