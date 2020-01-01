@@ -4,7 +4,7 @@ USER root
 
 RUN apt-get -q update && \
     apt-get install -y python3-dev libxml2-utils librsvg2-bin && \
-    pip install ensurepath standardebooks && \
+    python3 -m pip install ensurepath standardebooks && \
     apt-get clean && rm -rf /var/cache/apt/* && rm -rf /var/lib/apt/lists/* && rm -rf /tmp/*
 # Missing: libimage-exiftool-perl, default-jre, calibre
 # Skipped for now: inkscape
