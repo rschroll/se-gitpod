@@ -2,7 +2,7 @@
 
 # Standard Ebooks + Gitpod
 
-This repo is testing developing [Standard Ebooks](https://standardebooks.org) on [Gitpod](https://gitpod.io).  It provides a Gitpod workspace with the [Standard Ebooks tools](https://github.com/standardebooks/tools) installed.  To test this out, the [step-by-step instructions](https://standardebooks.org/contribute/producing-an-ebook-step-by-step) for creating an ebook for *Dr. Jekyll and Mr. Hyde* have been followed.  The focus has been on testing the Standard Ebooks tools, so proofreading and manual markup has not been done.  The resulting product does not live up to the standards of Standard Ebooks.
+This repo is testing developing [Standard Ebooks](https://standardebooks.org) on [Gitpod](https://gitpod.io).  It provides a Gitpod workspace with the [Standard Ebooks tools](https://github.com/standardebooks/tools) installed.  To test this out, the [step-by-step instructions](https://standardebooks.org/contribute/producing-an-ebook-step-by-step) for creating an ebook for *Dr. Jekyll and Mr. Hyde* have been followed.  The focus has been on testing the Standard Ebooks tools, so proofreading and manual markup have not been done.  The resulting product does not live up to the standards of Standard Ebooks.
 
 All of the steps described in the instructions work, with the following exceptions:
 
