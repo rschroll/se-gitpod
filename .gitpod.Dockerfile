@@ -13,7 +13,7 @@ RUN python3 -m pip install standardebooks
 
 # Install required fonts.
 RUN mkdir -p $HOME/.local/share/fonts/ && \
-    cp /home/gitpod/.pyenv/versions/3.*/lib/python3.*/site-packages/se/data/fonts/*/*.otf $HOME/.local/share/fonts/ && \
+    cp /home/gitpod/.pyenv/versions/3.*/lib/python3.*/site-packages/se/data/fonts/*/*.svg $HOME/.local/share/fonts/ && \
     sudo fc-cache -f
 
 # Bash users can install tab completion.
