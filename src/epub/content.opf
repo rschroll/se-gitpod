@@ -18,7 +18,9 @@
 		<link href="http://www.idpf.org/epub/a11y/accessibility-20170105.html#wcag-aa" rel="dcterms:conformsTo"/>
 		<meta property="a11y:certifiedBy">Standard Ebooks</meta>
 		<meta property="schema:accessMode">textual</meta>
+		<meta property="schema:accessMode">visual</meta>
 		<meta property="schema:accessModeSufficient">textual</meta>
+		<meta property="schema:accessibilityFeature">alternativeText</meta>
 		<meta property="schema:accessibilityFeature">readingOrder</meta>
 		<meta property="schema:accessibilityFeature">structuralNavigation</meta>
 		<meta property="schema:accessibilityFeature">tableOfContents</meta>
@@ -78,17 +80,155 @@
 		<item href="css/se.css" id="se.css" media-type="text/css"/>
 		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
 		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
+		<item href="images/tinkerp9.jpg" id="tinkerp9.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp14.jpg" id="tinkerp14.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp25.jpg" id="tinkerp25.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp36.jpg" id="tinkerp36.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp47.jpg" id="tinkerp47.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp49.jpg" id="tinkerp49.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp54a.jpg" id="tinkerp54a.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp54aa.jpg" id="tinkerp54aa.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp54ab.jpg" id="tinkerp54ab.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp54ac.jpg" id="tinkerp54ac.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp54b.jpg" id="tinkerp54b.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp54c.jpg" id="tinkerp54c.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp54d.jpg" id="tinkerp54d.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp54e.jpg" id="tinkerp54e.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp54f.jpg" id="tinkerp54f.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp54g.jpg" id="tinkerp54g.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp54h.jpg" id="tinkerp54h.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp54i.jpg" id="tinkerp54i.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp54j.jpg" id="tinkerp54j.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp54k.jpg" id="tinkerp54k.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp54l.jpg" id="tinkerp54l.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp54m.jpg" id="tinkerp54m.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp54n.jpg" id="tinkerp54n.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp54o.jpg" id="tinkerp54o.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp54p.jpg" id="tinkerp54p.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp54q.jpg" id="tinkerp54q.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp54r.jpg" id="tinkerp54r.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp54s.jpg" id="tinkerp54s.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp54t.jpg" id="tinkerp54t.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp54u.jpg" id="tinkerp54u.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp54v.jpg" id="tinkerp54v.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp54w.jpg" id="tinkerp54w.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp54x.jpg" id="tinkerp54x.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp54y.jpg" id="tinkerp54y.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp54z.jpg" id="tinkerp54z.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp62.jpg" id="tinkerp62.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp72.jpg" id="tinkerp72.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp80.jpg" id="tinkerp80.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp84.jpg" id="tinkerp84.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp92.jpg" id="tinkerp92.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp98.jpg" id="tinkerp98.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp107.jpg" id="tinkerp107.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp113.jpg" id="tinkerp113.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp124.jpg" id="tinkerp124.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp128.jpg" id="tinkerp128.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp136.jpg" id="tinkerp136.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp144.jpg" id="tinkerp144.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp149.jpg" id="tinkerp149.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp153.jpg" id="tinkerp153.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp163.jpg" id="tinkerp163.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp165.jpg" id="tinkerp165.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp175.jpg" id="tinkerp175.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp182a.jpg" id="tinkerp182a.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp182b.jpg" id="tinkerp182b.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp182c.jpg" id="tinkerp182c.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp182d.jpg" id="tinkerp182d.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp182e.jpg" id="tinkerp182e.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp182f.jpg" id="tinkerp182f.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp182g.jpg" id="tinkerp182g.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp182h.jpg" id="tinkerp182h.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp182i.jpg" id="tinkerp182i.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp182j.jpg" id="tinkerp182j.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp182k.jpg" id="tinkerp182k.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp182l.jpg" id="tinkerp182l.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp182m.jpg" id="tinkerp182m.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp182n.jpg" id="tinkerp182n.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp182o.jpg" id="tinkerp182o.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp182p.jpg" id="tinkerp182p.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp182q.jpg" id="tinkerp182q.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp182r.jpg" id="tinkerp182r.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp182s.jpg" id="tinkerp182s.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp182t.jpg" id="tinkerp182t.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp182u.jpg" id="tinkerp182u.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp182v.jpg" id="tinkerp182v.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp182w.jpg" id="tinkerp182w.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp182x.jpg" id="tinkerp182x.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp203.jpg" id="tinkerp203.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp210.jpg" id="tinkerp210.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp213.jpg" id="tinkerp213.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp224.jpg" id="tinkerp224.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp227.jpg" id="tinkerp227.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp230.jpg" id="tinkerp230.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp236.jpg" id="tinkerp236.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp238.jpg" id="tinkerp238.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerp246.jpg" id="tinkerp246.jpg" media-type="image/jpeg"/>
+		<item href="images/tinkerpa.jpg" id="tinkerpa.jpg" media-type="image/jpeg"/>
 		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
-		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
-		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/chapters.xhtml" id="chapters.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/contents.xhtml" id="contents.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/tinkauthor.xhtml" id="tinkauthor.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/tinkchap1.xhtml" id="tinkchap1.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/tinkchap2.xhtml" id="tinkchap2.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/tinkchap3.xhtml" id="tinkchap3.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/tinkchap4.xhtml" id="tinkchap4.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/tinkchap5.xhtml" id="tinkchap5.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/tinkchap6.xhtml" id="tinkchap6.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/tinkchap7.xhtml" id="tinkchap7.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/tinkchap8.xhtml" id="tinkchap8.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/tinkchap9.xhtml" id="tinkchap9.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/tinkchap10.xhtml" id="tinkchap10.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/tinkchap11.xhtml" id="tinkchap11.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/tinkchap12.xhtml" id="tinkchap12.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/tinkchap13.xhtml" id="tinkchap13.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/tinkchap14.xhtml" id="tinkchap14.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/tinkchap15.xhtml" id="tinkchap15.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/tinkchap16.xhtml" id="tinkchap16.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/tinkchap17.xhtml" id="tinkchap17.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/tinkchap18.xhtml" id="tinkchap18.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/tinkchap19.xhtml" id="tinkchap19.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/tinkcomments.xhtml" id="tinkcomments.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/tinkepilogue.xhtml" id="tinkepilogue.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/tinkgloss.xhtml" id="tinkgloss.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/tinkscourse.xhtml" id="tinkscourse.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/tinksequip.xhtml" id="tinksequip.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/tinksfittings.xhtml" id="tinksfittings.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/tinkstow.xhtml" id="tinkstow.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
-		<item href="text/uncopyright.xhtml" id="uncopyright.xhtml" media-type="application/xhtml+xml"/>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
 	</manifest>
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
-		<itemref idref="imprint.xhtml"/>
-		<itemref idref="colophon.xhtml"/>
-		<itemref idref="uncopyright.xhtml"/>
+		<itemref idref="contents.xhtml"/>
+		<itemref idref="chapters.xhtml"/>
+		<itemref idref="tinkchap1.xhtml"/>
+		<itemref idref="tinkchap2.xhtml"/>
+		<itemref idref="tinkchap3.xhtml"/>
+		<itemref idref="tinkchap4.xhtml"/>
+		<itemref idref="tinkchap5.xhtml"/>
+		<itemref idref="tinkchap6.xhtml"/>
+		<itemref idref="tinkchap7.xhtml"/>
+		<itemref idref="tinkchap8.xhtml"/>
+		<itemref idref="tinkchap9.xhtml"/>
+		<itemref idref="tinkchap10.xhtml"/>
+		<itemref idref="tinkchap11.xhtml"/>
+		<itemref idref="tinkchap12.xhtml"/>
+		<itemref idref="tinkchap13.xhtml"/>
+		<itemref idref="tinkchap14.xhtml"/>
+		<itemref idref="tinkchap15.xhtml"/>
+		<itemref idref="tinkchap16.xhtml"/>
+		<itemref idref="tinkchap17.xhtml"/>
+		<itemref idref="tinkchap18.xhtml"/>
+		<itemref idref="tinkchap19.xhtml"/>
+		<itemref idref="tinkepilogue.xhtml"/>
+		<itemref idref="tinkcomments.xhtml"/>
+		<itemref idref="tinkscourse.xhtml"/>
+		<itemref idref="tinksfittings.xhtml"/>
+		<itemref idref="tinksequip.xhtml"/>
+		<itemref idref="tinkstow.xhtml"/>
+		<itemref idref="tinkgloss.xhtml"/>
+		<itemref idref="tinkauthor.xhtml"/>
 	</spine>
 </package>
